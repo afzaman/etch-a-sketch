@@ -3,11 +3,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <button onclick="createPad(8)">Tall</button>
-        <button onclick="createPad(16)">Grande</button>
-        <button onclick="createPad(32)">Venti</button>
-        <button onclick="createPad(64)">Trenta</button>
+        <h1>So you wanna sketch and etch, eh?</h1>
+        <h2>How fine do you want it?</h2>
+        <button class="btn" onclick="createPad(8)">8 Karat</button>
+        <button class="btn" onclick="createPad(16)">16 Karat</button>
+        <button class="btn" onclick="createPad(32)">three nines fine</button>
+        <button class="btn" onclick="createPad(64)">six nines fine</button>
         <div id="pad-container" class="pad-container"></div>
     </body>
+    <a style="border: 250px;" href="https://en.wikipedia.org/wiki/Fineness">What's this "three fines nine" nonsense?</a>
     <script src="script.js"></script>
 </html>
